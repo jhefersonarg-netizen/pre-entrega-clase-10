@@ -1,0 +1,6 @@
+[
+  { "id": 1, "nombre": "Laptop Premium", "precio": 1200, "stock": 5 },
+  { "id": 2, "nombre": "Smartphone Pro", "precio": 800, "stock": 12 },
+  { "id": 3, "nombre": "Auriculares Bluetooth", "precio": 150, "stock": 25 },
+  { "id": 4, "nombre": "Teclado Mecánico RGB", "precio": 90, "stock": 8 }
+]

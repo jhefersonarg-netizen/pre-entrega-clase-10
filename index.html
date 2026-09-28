@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/main.js"defer></script>
+    <title>Pre-Entrega 10: APIs, Peticiones y Librerías</title>
+    
+    
+    <link rel="stylesheet" type="text/css" href="https://jsdelivr.net">
+    
+    
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <div id="banner-asincrono" class="banner hidden"></div>
+
+    <h1>🛒 Simulador Profesional: Carga de Datos y Librerías</h1>
+    <p>Los productos provienen de una base de datos local usando fetch y async/await.</p>
+
+    <div class="grid-tienda">
+        
+        <div class="panel">
+            <h2>Productos Disponibles</h2>
+           
+            <div id="catalogo-productos">
+                <p style="color: #7f8c8d;">Cargando catálogo de productos...</p>
+            </div>
+        </div>
+
+        
+        <div class="panel">
+            <h2>Tu Carrito de Compras</h2>
+            <div id="contenedor-carrito"></div>
+            
+            <div class="totales">
+                <p>Total artículos: <span id="total-items">0</span></p>
+                <p>Total a pagar: <strong>$<span id="total-dinero">0</span></strong></p>
+            </div>
+            <button id="btn-vaciar-carrito" class="btn-eliminar" style="width: 100%; margin-top: 10px; padding: 12px;">🗑️ Vaciar Todo el Carrito</button>
+        </div>
+    </div>
+
+    
+    <script src="https://jsdelivr.net"></script>
+    
+    <script type="text/javascript" src="https://jsdelivr.net"></script>
+    
+
+</body>
+</html>
